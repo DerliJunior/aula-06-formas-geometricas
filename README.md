@@ -14,5 +14,17 @@
 3.0 - Abra o diretório tests, dentro dele tem nosso arquivo de teste "test_exercicio.py", com os métodos para testarmos
 *   ![Alt text](images/tests.png "Title")
 
-3.1 - Na barra lateral terá a extensão de teste do python, clique nela 
+3.1 - Na barra lateral terá a extensão de teste do python, clique nela para acessar nossos testes criados
 *   ![Alt text](images/testes.png "Title")
+
+
+3.2 - Caso não mostre nenhum teste, você pode configurar manualmente os testes, abrindo a paleta de comandos do vscode
+    "ctrl + shift + p". Em seguida digite "Python configure tests" e selecione a biblioteca de testes que no caso é o pytest,
+    e selecione o diretório tests. O pytest vai procurar dentro do diretório tests pelos nossos arquivos "test_".
+*   ![Alt text](images/paleta-comandos-code.png "Title")
+
+3.3 - É possível que não carregue os testes como no passo 3.1, então podemos limpar o cache do vscode, fechando e abrindo novamente ou utilizando
+    a paleta do vscode "ctrl + shift + p"  e digitando "Python clear cache"
+*   ![Alt text](images/clear-cache.png "Title")
+
+3.3.1 - Verifique se carregou os testes como na imagem do 3.1
